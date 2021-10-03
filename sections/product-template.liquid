@@ -192,7 +192,7 @@
       We allow merchants to add a tag that looks like __with:product-handle to feature an additional product
       --------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
-toto1
+
       {%- for tag in product.tags -%}
         {%- if tag contains '__with' -%}
           {%- assign product_handle = tag | split: '__with:' | last -%}
@@ -212,20 +212,20 @@ toto1
         {%- endif -%}
       {%- endfor -%}
     {%- endcapture -%}
-toto2
+
     <div class="Product__InfoWrapper">
       <div class="Product__Info {% if image_count == 0 %}Product__Info--noGallery{% endif %}">
         <div class="Container">
           {%- include 'product-meta', show_description: true -%}
-          toto4
+          
           {%- include 'product-form' -%}
-toto5
+
           {%- if section.settings.description_below_add_to_cart -%}
             <div class="ProductMeta__Description Rte">
               {{ product.description }}
             </div>
           {%- endif -%}
-toto3
+
           {%- if product_aside != blank and image_count > 0 -%}
             <div class="Product__QuickNav hidden-pocket">
               <div class="Product__QuickNavWrapper">
