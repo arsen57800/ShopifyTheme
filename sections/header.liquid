@@ -27,9 +27,24 @@
       
       $('document').ready(function(){
         
+        alert('helo');
+        
+        
+        $( 'span' ).each(function( index ) {
+          console.log( index + ": " + $( this ).text() );
+        });
+        
+        
+        
+         $( '.shopify-payment-button__more-options _2ogcW-Q9I-rgsSkNbRiJzA' ).each(function( index ) {
+          console.log( index + ": " + $( this ).before.text() );
+        });
         
         
         ChangeText();
+        
+        
+        
 
       });
      

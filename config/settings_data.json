@@ -6,7 +6,7 @@
     "link_color": "#323232",
     "background": "#ffffff",
     "light_background": "#ffffff",
-    "product_on_sale_color": "#f94c43",
+    "product_on_sale_color": "#2ba9e3",
     "button_background": "#2ba9e3",
     "button_text_color": "#ffffff",
     "header_background": "#ffffff",
@@ -17,8 +17,8 @@
     "footer_text_color": "#939393",
     "navigation_background": "#fafafa",
     "navigation_text_color": "#5c5c5c",
-    "newsletter_popup_background": "#ffffff",
-    "newsletter_popup_text_color": "#1c1b1b",
+    "newsletter_popup_background": "#fafafa",
+    "newsletter_popup_text_color": "#2ba9e3",
     "secondary_elements_background": "#5c5c5c",
     "secondary_elements_text_color": "#ffffff",
     "heading_font": "maven_pro_n4",
@@ -128,14 +128,14 @@
         ],
         "settings": {
           "use_sticky_header": false,
-          "logo": "shopify:\/\/shop_images\/BroBarber1500px.png",
+          "logo": "shopify:\/\/shop_images\/blacktransparantCut.png",
           "logo_max_width": 110,
           "navigation_menu": "main-menu",
           "navigation_style": "center",
           "enable_transparent_header": true,
           "enable_transparent_header_collection": true,
           "transparent_text_color": "#ffffff",
-          "transparent_logo": "shopify:\/\/shop_images\/BroBarber.png"
+          "transparent_logo": "shopify:\/\/shop_images\/blacktransparantCut.png"
         }
       },
       "footer": {
@@ -491,8 +491,8 @@
         "settings": {
           "section_size": "small",
           "image": "shopify:\/\/shop_images\/quaint-barbershop-with-eclectic-decor.jpg",
-          "text_color": "#ffffff",
-          "button_color": "#000000",
+          "text_color": "#fafafa",
+          "button_color": "#2ba9e3",
           "subheading": "",
           "title": "Newsletter vip",
           "content": "<p>Melden Sie sich an, um Updates, exklusive Angebote und vieles mehr zu erhalten.<\/p>"
@@ -586,7 +586,7 @@
       "16331776549500745b": {
         "type": "featured-product",
         "settings": {
-          "subheading": "Neuartiges",
+          "subheading": "Neuheit",
           "title": "",
           "product": "mlg-washable-rechargeable-electric-shaver-beard-razor-body-trimmer-men-shaving-machine-hair-face-care-cleaning",
           "show_vendor": false,
@@ -644,6 +644,31 @@
           "text_color": "#ffffff",
           "button_color": "#2ba9e3"
         }
+      },
+      "16333019249d3f1773": {
+        "type": "featured-product",
+        "settings": {
+          "subheading": "Notre tondeuse édition collector avec 10 sabots est enfin disponible !",
+          "title": "",
+          "product": "2021-new-professional-hair-clipper-set-barber-hair-cutting-machine-electric-hair-trimmer-for-men-2-clippers-embossed-haircutter",
+          "show_vendor": false,
+          "show_description": false,
+          "description_below_add_to_cart": true,
+          "show_color_swatch": true,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 0,
+          "show_payment_button": true
+        }
+      },
+      "16333104692775fc85": {
+        "type": "custom-html",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "html": "<div id=\"1616\">\n    <center style=\"padding: auto; padding-bottom:10px; background:#f9f9f9; \">\n        <h2>ProBarber® BarberShop<\/h2>\n        <span style=\"font-weight:100; font-size:12px; position:relative;\">Steilshooper Allee 442<br>22179 Hamburg\n            <\/span><br>\n    <\/center>\n<\/div>"
+        }
       }
     },
     "content_for_index": [
@@ -653,9 +678,11 @@
       "16329918827729163d",
       "163318503408edc3ac",
       "1536065970902",
+      "16333019249d3f1773",
       "alireviews-widget-96261",
       "16331776549500745b",
       "1536065219503",
+      "16333104692775fc85",
       "1536067011368",
       "1632832905132f4340"
     ]

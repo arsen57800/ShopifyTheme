@@ -397,5 +397,150 @@
     "month_day_year": "%B %d, %Y",
     "month_day_year_short": "%m\/%d\/%Y",
     "month_day_year_time": "%B %d, %Y at %I:%M%p"
+  },
+  "shopify": {
+    "checkout": {
+      "shipping": {
+        "title": "Versand",
+        "free_rate_label": "Gratis"
+      },
+      "general": {
+        "page_title": "Kasse",
+        "error_page_title": "Fehler",
+        "skip_to_content": "Zum Inhalt springen",
+        "continue_button_label": "Weiter",
+        "pay_now_button_label": "Jetzt bezahlen",
+        "authenticate_purchase_button_label": "Zahlung beglaubigen",
+        "edit_link_label": "Editieren",
+        "all_rights_reserved": "Alle Rechte vorbehalten {{shop_name}}",
+        "print_policies_link_label": "Drucken",
+        "cart": "Warenkorb",
+        "close_modal_label": "Schließen",
+        "close_notice_label": "Schließen",
+        "expand_notice_label": "Mehr sehen",
+        "continue_to_shipping_method": "Weiter zum Versand",
+        "continue_to_payment_method": "Weiter zur Zahlung",
+        "continue_to_review": "Bestellung überprüfen",
+        "back_to_cart": "Zurück zum Warenkorb",
+        "back_to_contact_information": "Zurück zu Informationen",
+        "back_to_shipping_method": "Zurück zum Versand",
+        "back_to_payment_method": "Zurück zur Zahlung",
+        "choose_shipping_method": "Wählen Sie eine Versandart",
+        "choose_payment_method": "Wählen Sie eine Zahlungsmethode",
+        "choose_billing_address": "Wählen Sie eine Rechnungsanschrift",
+        "contact_us_html": "Kontaktieren Sie uns für weitere Informationen",
+        "autocomplete_title": "Empfehlung",
+        "autocomplete_single_item": "1 Artikel verfügbar",
+        "autocomplete_multi_item": "{{number}} verfügbare Artikel",
+        "autocomplete_selection": "{{number}} von {{total}} ",
+        "autocomplete_close": "Naheliegende Vorschläge",
+        "tooltip_accessibility_label": "Weitere Informationen",
+        "forwarding_indicator": {
+          "new_window": "Öffnet in einem neuen Fenster"
+        },
+        "checkout_context": {
+          "step_one": "{{shop_name}} - Kasse"
+        },
+        "breadcrumb": "Brotkrümel"
+      },
+      "contact": {
+        "title": "Informationen",
+        "address_title": "Adresse",
+        "shipping_address_title": "Versandanschrift",
+        "delivery_option_title": "Zustellungsmetode",
+        "contact_method_title": "Kontaktinformationen",
+        "email_label": "Email",
+        "email_placeholder": "Email",
+        "email_or_phone_label": "E-Mail oder Mobiltelefonnummer",
+        "email_or_phone_placeholder": "E-Mail oder Mobiltelefonnummer",
+        "stored_addresses_label": "Gespeicherte Adresse",
+        "new_address_label": "Verwenden Sie eine neue Adresse",
+        "first_name_label": "Vorname",
+        "optional_first_name_label": "Vorname (optional)",
+        "last_name_label": "Nachname",
+        "company_label": "Unternehmen",
+        "optional_company_label": "Unternehmen (optional)",
+        "address1_label": "Adresse",
+        "address2_label": "Wohnung, Appartement, usw.",
+        "optional_address2_label": "Wohnung, Appartement, usw. (optional)",
+        "city_label": "Stadt",
+        "country_label": "Land",
+        "country_code": "Land code",
+        "province_label": "Provinz",
+        "province_placeholder": "Provinz",
+        "county_label": "Land",
+        "county_placeholder": "Land",
+        "state_label": "Stadt",
+        "state_placeholder": "Stadt",
+        "region_label": "Region",
+        "region_placeholder": "Region",
+        "region_none": "Keine ausgewählt",
+        "prefecture_label": "Präfektur",
+        "prefecture_placeholder": "Präfektur",
+        "phone_label": "Mobil",
+        "optional_phone_label": "Mobil (optional)",
+        "phone_placeholder": "Mobil"
+      },
+      "order_summary": {
+        "free_total_label": "Gratis",
+        "paid_label": "Bezahlt",
+        "payment_due_label": "Fälligkeit der Zahlung",
+        "price_label": "Preis",
+        "quantity_label": "Menge",
+        "subtotal_label": "Zwischensumme",
+        "shipping_label": "Versand",
+        "pickup_label": "Abholung",
+        "shipping_policy_link": "Versandkosten",
+        "taxes_label": "Steuern",
+        "estimated_taxes_label": "Steuern (geschätzt)",
+        "total_outstanding_label": "Zu bezahlender Betrag",
+        "shipping_default_value": "Gratis"
+      },
+      "customer_account": {
+        "save_my_information_label": "Speichern Sie diese Informationen für das nächsten Besuch",
+        "sign_out_link_label": "Sich abmelden",
+        "sign_in_link_label": "Sich anmelden",
+        "have_an_account_label": "Sie haben bereits ein Konto?",
+        "not_user_label": "Nicht {{ first_name }}?"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Express-Kasse"
+      },
+      "payment": {
+        "title": "Zahlung",
+        "amount_left_to_pay_label": "Fällige Zahlung:"
+      },
+      "thank_you": {
+        "thank_you_title_payment": "Ihre Zahlung ist bestätigt"
+      },
+      "review": {
+        "blocks": {
+          "payment_method_title": "Zahlung",
+          "change_payment_method_link_label": "Zahlungsmethode ändern"
+        },
+        "title": "Überprüfung",
+        "review_title": "Bestellung überprüfen"
+      },
+      "change_currency": {
+        "payment_total_label": "Zahlung Total"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "E-Mail mit Neuigkeiten und Angeboten bekommen"
+      },
+      "apple_pay": {
+        "button_html": "Bezahlen mit {{ logo }}"
+      }
+    },
+    "sentence": {
+      "two_words_connector": "und",
+      "last_word_connector": ", und"
+    },
+    "notices": {
+      "order": {
+        "cancel_reason": {
+          "declined": "Zahlung dekliniert"
+        }
+      }
+    }
   }
 }
