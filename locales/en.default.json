@@ -38,8 +38,8 @@
       "account": "Account",
       "search": "Suche",
       "cart": "Warenkorb",
-      "open_cart": "Open cart",
-      "close_cart": "Close cart",
+      "open_cart": "Warenkorb öffnen",
+      "close_cart": "Warenkorb schließen",
       "skip_to_content": "Skip to content"
     }
   },
@@ -198,12 +198,12 @@
       "line_price": "Total",
       "subtotal": "Subtotal",
       "discount": "Discount",
-      "shipping": "Shipping",
+      "shipping": "Versand",
       "tax": "Tax",
       "total": "Total",
-      "shipping_address": "Shipping address",
-      "billing_address": "Billing address",
-      "no_shipping_address": "No shipping address was required for this order."
+      "shipping_address": "Lieferadresse",
+      "billing_address": "Rechnungsadresse",
+      "no_shipping_address": "Für diese Bestellung war keine Lieferadresse erforderlich."
     },
     "activate_account": {
       "title": "Activate account",
@@ -263,41 +263,41 @@
   },
   "cart": {
     "general": {
-      "title": "Cart",
-      "empty": "Your cart is empty",
+      "title": "Warenkorb",
+      "empty": "Ihr Warenkorb ist leer",
       "empty_button": "Shop our products",
-      "add_note": "Add Order Note",
+      "add_note": "Bestellhinweis hinzufügen",
       "edit_note": "Edit Order Note",
       "save_note": "Save",
       "note_placeholder": "How can we help you?",
-      "free_shipping": "You are eligible to free shipping!",
+      "free_shipping": "Sie haben Anspruch auf kostenlosen Versand!",
       "free_shipping_remaining_html": "Spend {{remaining_amount}} and get free shipping!",
-      "shipping_and_taxes_notice": "Shipping & taxes calculated at checkout",
+      "shipping_and_taxes_notice": "Versand und Steuern werden an der Kasse berechnet",
       "total": "Total",
-      "currency_notice": "All orders are processed in shop's currency, which is {{shop_currency}}. The content of your cart may be displayed in another currency, at the most current exchange rate.",
-      "checkout": "Checkout"
+      "currency_notice": "Alle Bestellungen werden in der Währung des Shops abgewickelt, die {{shop_currency}} ist. Der Inhalt Ihres Warenkorbs kann in einer anderen Währung angezeigt werden, die dem aktuellen Wechselkurs entspricht.",
+      "checkout": "Kasse"
     },
     "items": {
-      "product": "Product",
-      "quantity": "Quantity",
+      "product": "Produkt",
+      "quantity": "Menge",
       "total": "Total",
-      "set_quantity": "Set quantity to {{new_quantity}}",
-      "remove": "Remove"
+      "set_quantity": "Menge einstellen auf {{new_quantity}}",
+      "remove": "Entfernen"
     },
     "shipping_estimator": {
-      "title": "Estimate shipping",
-      "country": "Country",
-      "province": "Province",
-      "zip_code": "Zip code",
-      "estimate": "Estimate",
-      "one_result_title": "1 option available:",
-      "more_results_title": "{{count}} options available:",
-      "no_results_title": "No shipping could be found"
+      "title": "Kostenvoranschlag für den Versand",
+      "country": "Land",
+      "province": "Provinz",
+      "zip_code": "Postleitzahl",
+      "estimate": "Schätzung",
+      "one_result_title": "1 Option verfügbar:",
+      "more_results_title": "{{count}} Verfügbare Optionen:",
+      "no_results_title": "Es konnte kein Versand gefunden werden"
     }
   },
   "product": {
     "labels": {
-      "sold_out": "Sold out",
+      "sold_out": "Ausverkauft",
       "on_sale": "Angebot"
     },
     "slideshow": {
@@ -326,11 +326,11 @@
         "other": "{{count}} colors"
       },
       "add_to_cart": "In den Warenkorb",
-      "sold_out": "Sold Out",
-      "pre_order": "Pre-order",
-      "unavailable": "Unavailable",
+      "sold_out": "Ausverkauft",
+      "pre_order": "Vorbestellung",
+      "unavailable": "Nicht verfügbar",
       "view_info": "Mehr information",
-      "view_images": "View images"
+      "view_images": "Bilder ansehen"
     },
     "tabs": {
       "reviews": "Reviews"
